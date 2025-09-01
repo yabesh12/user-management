@@ -7,11 +7,11 @@ FastAPI Microservice Template
 Clone repo with microservice name:
 
 ```bash
-git clone <repo-url> user-management
-cd user-management
+git clone <repo-url> {{project_name}}
+cd {{project_name}}
 ```
 
-`.env.example` picks up `PROJECT_NAME=user-management` automatically (or defaults to folder name).
+`.env.example` picks up `PROJECT_NAME={{project_name}}` automatically (or defaults to folder name).
 
 ## Run Service
 
@@ -29,6 +29,6 @@ Response:
 ```json
 {
   "status": "ok",
-  "service": "user-management"
+  "service": "{{project_name}}"
 }
 ```
