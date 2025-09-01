@@ -7,7 +7,7 @@ FastAPI Microservice Template
 Clone repo with microservice name:
 
 ```bash
-git clone <repo-url> {{project_name}}
+git clone https://github.com/yabesh12/microservice-template.git {{project_name}}
 cd {{project_name}}
 ```
 
