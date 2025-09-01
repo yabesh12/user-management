@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  api:
+    build: .
+    container_name: ${PROJECT_NAME:-sample-service}-api
+    env_file:
+      - .env.example
+    ports:
+      - "8000:8000"
